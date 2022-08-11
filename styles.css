@@ -1,0 +1,175 @@
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  src: url("/fonts/static/PlusJakartaSans-Bold.ttf"), url("/fonts/webfonts/PlusJakartaSans-Bold.woff") format("woff"), url("/fonts/webfonts/PlusJakartaSans-Bold.woff2") format("woff2");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  src: url("/fonts/static/PlusJakartaSans-Medium.ttf"), url("/fonts/webfonts/PlusJakartaSans-Medium.woff") format("woff"), url("/fonts/webfonts/PlusJakartaSans-Medium.woff2") format("woff2");
+  font-weight: 400;
+}
+h1 {
+  font-family: "Plus Jakarta Sans", "Arial-bold", arial, "san-serif";
+  font-size: 3.5rem;
+  line-height: 4.38rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-family: "Plus Jakarta Sans", "Arial-bold", arial, "san-serif";
+  font-size: 2.5rem;
+  line-height: 3.19rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-family: "Plus Jakarta Sans", "Arial-bold", arial, "san-serif";
+  font-size: 2rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+}
+
+p {
+  font-family: "Plus Jakarta Sans", "arial", "san-serif";
+  font-size: 1.13rem;
+  line-height: 1.7rem;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  max-width: 1440px;
+  margin: auto;
+}
+
+body {
+  background-color: rgb(255, 247, 240);
+}
+
+header {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 32px;
+}
+header .logo {
+  width: 64px;
+  height: 64px;
+}
+header button {
+  width: 228px;
+  height: 56px;
+  color: #fff7f0;
+  background-color: rgb(3, 3, 3);
+  border-radius: 28px;
+  outline: 0;
+  border: 0;
+  font-size: 1rem;
+  font-family: "Plus Hakarta Sans", "sans-serif";
+  font-weight: 700;
+}
+
+.landing {
+  margin-top: 80px;
+}
+.landing .landing-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.landing .landing-text p {
+  width: 730px;
+  text-align: center;
+  margin: 2rem;
+  color: rgb(112, 116, 110);
+}
+.landing .landing-grid {
+  height: 364px;
+  width: 80%;
+  margin: auto;
+  margin-top: 80px;
+  display: grid;
+  grid-template-areas: "graphic-design graphic-design ui-ux apps photography photography" "graphic-design graphic-design illustrations illustrations motion-graphics motion-graphics";
+  gap: 1.8rem;
+}
+.landing .landing-grid .card {
+  border-radius: 8px;
+  padding: 2rem;
+  display: grid;
+}
+.landing .landing-grid .card .card-graphic {
+  justify-self: end;
+}
+.landing .landing-grid .card .card-title {
+  color: #fff7f0;
+  align-self: end;
+}
+.landing .landing-grid .graphic-design {
+  grid-area: graphic-design;
+  background-color: rgb(117, 92, 222);
+}
+.landing .landing-grid .ui-ux {
+  grid-area: ui-ux;
+  background-color: rgb(246, 165, 96);
+}
+.landing .landing-grid .apps {
+  grid-area: apps;
+  background-color: rgb(243, 158, 158);
+}
+.landing .landing-grid .illustrations {
+  grid-area: illustrations;
+  background-color: rgb(253, 117, 101);
+}
+.landing .landing-grid .photography {
+  grid-area: photography;
+  background-color: rgb(97, 196, 183);
+}
+.landing .landing-grid .motion-graphics {
+  grid-area: motion-graphics;
+  background-color: rgb(85, 32, 73);
+}
+
+.about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 80%;
+  margin: auto;
+  margin-top: 40px;
+}
+.about img {
+  object-fit: contain;
+  width: 100%;
+  max-height: 100%;
+  padding: 5rem;
+  padding-left: 0;
+  justify-self: start;
+}
+.about .about-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.about .about-content p {
+  margin: 2rem 0;
+  color: rgb(112, 116, 110);
+}
+.about .about-content button {
+  width: 228px;
+  height: 56px;
+  border-radius: 28px;
+  color: #fff7f0;
+  background-color: rgb(253, 117, 101);
+  outline: 0;
+  border: 0;
+  font-size: 1rem;
+  font-family: "Plus Hakarta Sans", "sans-serif";
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=styles.css.map */
